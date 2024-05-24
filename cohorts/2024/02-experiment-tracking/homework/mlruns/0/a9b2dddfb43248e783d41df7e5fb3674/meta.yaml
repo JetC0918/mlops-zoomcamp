@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/crab/py2/mlops-zoomcamp/cohorts/2024/02-experiment-tracking/homework/mlruns/0/a9b2dddfb43248e783d41df7e5fb3674/artifacts
+end_time: 1716560729497
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a9b2dddfb43248e783d41df7e5fb3674
+run_name: youthful-bear-414
+run_uuid: a9b2dddfb43248e783d41df7e5fb3674
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716560705878
+status: 3
+tags: []
+user_id: crab

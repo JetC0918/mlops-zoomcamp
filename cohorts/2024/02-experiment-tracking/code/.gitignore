@@ -1,0 +1,5 @@
+data/
+mlruns/
+models/
+models_pickle/
+*.db
