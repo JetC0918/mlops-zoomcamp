@@ -1,21 +1,27 @@
-# Setup
+# Mage
+- An open-source data pipeline tool for transforming and integrating data.
 
-1. Clone repo:
+## Starting Mage
+`docker-compose up`
 
-   ```
-   git clone https://github.com/mage-ai/mlops.git
-   ```
+## Running Mage
+- Mage can be run at `http://127.0.0.1:6789/` or `http://localhost:6789/`
 
-1. Change directory into the cloned repo:
+## Pipeline
+- Contains blocks and code that want to run
 
-   ```
-   cd mlops
-   ```
+## Blocks
+- Maps an individual file in pipeline
+- There are few types of blocks that used in this homework
+  
+#### Data Loader
+- Block that is use to load data
 
-1. Launch Mage and the database service (PostgreSQL):
+#### Transformer
+- Block that is used to transform the data
+  
+#### Data Exporter
+- Block that is used to export the data
 
-   ```
-   ./scripts/start.sh
-   ```
-
-1. Open [`http://localhost:6789`](http://localhost:6789) in your browser.
+#### Pipeline used in homework
+![image](cohorts/2024/03-orchestration/homework/mlops/homework3/images/1.JPG)
