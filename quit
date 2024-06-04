@@ -1,0 +1,447 @@
+[33mcommit 33eee44573a7383b80897615d1887824e9d1de4a[m
+Author: jet <fiero1989@gmail.com>
+Date:   Tue Jun 4 21:04:02 2024 +0800
+
+    Add Homework 3
+
+[1mdiff --git a/cohorts/2024/01-intro/homework.ipynb b/cohorts/2024/01-intro/homework.ipynb[m
+[1mnew file mode 100644[m
+[1mindex 0000000..f65fdbb[m
+[1m--- /dev/null[m
+[1m+++ b/cohorts/2024/01-intro/homework.ipynb[m
+[36m@@ -0,0 +1,726 @@[m
+[32m+[m[32m{[m
+[32m+[m[32m "cells": [[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "code",[m
+[32m+[m[32m   "execution_count": 1,[m
+[32m+[m[32m   "id": "bb4186e3-94cf-4bce-b36b-71e89b732710",[m
+[32m+[m[32m   "metadata": {[m
+[32m+[m[32m    "id": "bb4186e3-94cf-4bce-b36b-71e89b732710"[m
+[32m+[m[32m   },[m
+[32m+[m[32m   "outputs": [[m
+[32m+[m[32m    {[m
+[32m+[m[32m     "name": "stderr",[m
+[32m+[m[32m     "output_type": "stream",[m
+[32m+[m[32m     "text": [[m
+[32m+[m[32m      "C:\\Users\\alexe\\anaconda3\\lib\\site-packages\\scipy\\__init__.py:155: UserWarning: A NumPy version >=1.18.5 and <1.25.0 is required for this version of SciPy (detected version 1.26.2\n",[m
+[32m+[m[32m      "  warnings.warn(f\"A NumPy version >={np_minversion} and <{np_maxversion}\"\n"[m
+[32m+[m[32m     ][m
+[32m+[m[32m    }[m
+[32m+[m[32m   ],[m
+[32m+[m[32m   "source": [[m
+[32m+[m[32m    "import pandas as pd\n",[m
+[32m+[m[32m    "\n",[m
+[32m+[m[32m    "from sklearn.feature_extraction import DictVectorizer\n",[m
+[32m+[m[32m    "from sklearn.linear_model import LinearRegression\n",[m
+[32m+[m[32m    "from sklearn.metrics import mean_squared_error\n",[m
+[32m+[m[32m    "\n",[m
+[32m+[m[32m    "import seaborn as sns\n",[m
+[32m+[m[32m    "import matplotlib.pyplot as plt\n",[m
+[32m+[m[32m    "\n",[m
+[32m+[m[32m    "import warnings\n",[m
+[32m+[m[32m    "warnings.filterwarnings('ignore')"[m
+[32m+[m[32m   ][m
+[32m+[m[32m  },[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "markdown",[m
+[32m+[m[32m   "id": "97yfKrCqBVSc",[m
+[32m+[m[32m   "metadata": {[m
+[32m+[m[32m    "id": "97yfKrCqBVSc"[m
+[32m+[m[32m   },[m
+[32m+[m[32m   "source": [[m
+[32m+[m[32m    "### Q1. Downloading the data\n",[m
+[32m+[m[32m    "\n"[m
+[32m+[m[32m   ][m
+[32m+[m[32m  },[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "code",[m
+[32m+[m[32m   "execution_count": 4,[m
+[32m+[m[32m   "id": "cbe379c6-5a79-491b-af10-c85039a1d13c",[m
+[32m+[m[32m   "metadata": {[m
+[32m+[m[32m    "id": "cbe379c6-5a79-491b-af10-c85039a1d13c"[m
+[32m+[m[32m   },[m
+[32m+[m[32m   "outputs": [],[m
+[32m+[m[32m   "source": [[m
+[32m+[m[32m    "df = pd.read_parquet('https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2023-01.parquet')"[m
+[32m+[m[32m   ][m
+[32m+[m[32m  },[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "code",[m
+[32m+[m[32m   "execution_count": 5,[m
+[32m+[m[32m   "id": "6635ef08-4a6d-43f4-9b36-26c728aec8be",[m
+[32m+[m[32m   "metadata": {[m
+[32m+[m[32m    "colab": {[m
+[32m+[m[32m     "base_uri": "https://localhost:8080/",[m
+[32m+[m[32m     "height": 270[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "id": "6635ef08-4a6d-43f4-9b36-26c728aec8be",[m
+[32m+[m[32m    "outputId": "17104c4c-3224-4dfc-eb71-d1e33d671148"[m
+[32m+[m[32m   },[m
+[32m+[m[32m   "outputs": [[m
+[32m+[m[32m    {[m
+[32m+[m[32m     "data": {[m
+[32m+[m[32m      "text/html": [[m
+[32m+[m[32m       "<div>\n",[m
+[32m+[m[32m       "<style scoped>\n",[m
+[32m+[m[32m       "    .dataframe tbody tr th:only-of-type {\n",[m
+[32m+[m[32m       "        vertical-align: middle;\n",[m
+[32m+[m[32m       "    }\n",[m
+[32m+[m[32m       "\n",[m
+[32m+[m[32m       "    .dataframe tbody tr th {\n",[m
+[32m+[m[32m       "        vertical-align: top;\n",[m
+[32m+[m[32m       "    }\n",[m
+[32m+[m[32m       "\n",[m
+[32m+[m[32m       "    .dataframe thead th {\n",[m
+[32m+[m[32m       "        text-align: right;\n",[m
+[32m+[m[32m       "    }\n",[m
+[32m+[m[32m       "</style>\n",[m
+[32m+[m[32m       "<table border=\"1\" class=\"dataframe\">\n",[m
+[32m+[m[32m       "  <thead>\n",[m
+[32m+[m[32m       "    <tr style=\"text-align: right;\">\n",[m
+[32m+[m[32m       "      <th></th>\n",[m
+[32m+[m[32m       "      <th>VendorID</th>\n",[m
+[32m+[m[32m       "      <th>tpep_pickup_datetime</th>\n",[m
+[32m+[m[32m       "      <th>tpep_dropoff_datetime</th>\n",[m
+[32m+[m[32m       "      <th>passenger_count</th>\n",[m
+[32m+[m[32m       "      <th>trip_distance</th>\n",[m
+[32m+[m[32m       "      <th>RatecodeID</th>\n",[m
+[32m+[m[32m       "      <th>store_and_fwd_flag</th>\n",[m
+[32m+[m[32m       "      <th>PULocationID</th>\n",[m
+[32m+[m[32m       "      <th>DOLocationID</th>\n",[m
+[32m+[m[32m       "      <th>payment_type</th>\n",[m
+[32m+[m[32m       "      <th>fare_amount</th>\n",[m
+[32m+[m[32m       "      <th>extra</th>\n",[m
+[32m+[m[32m       "      <th>mta_tax</th>\n",[m
+[32m+[m[32m       "      <th>tip_amount</th>\n",[m
+[32m+[m[32m       "      <th>tolls_amount</th>\n",[m
+[32m+[m[32m       "      <th>improvement_surcharge</th>\n",[m
+[32m+[m[32m       "      <th>total_amount</th>\n",[m
+[32m+[m[32m       "      <th>congestion_surcharge</th>\n",[m
+[32m+[m[32m       "      <th>airport_fee</th>\n",[m
+[32m+[m[32m       "    </tr>\n",[m
+[32m+[m[32m       "  </thead>\n",[m
+[32m+[m[32m       "  <tbody>\n",[m
+[32m+[m[32m       "    <tr>\n",[m
+[32m+[m[32m       "      <th>0</th>\n",[m
+[32m+[m[32m       "      <td>2</td>\n",[m
+[32m+[m[32m       "      <td>2023-01-01 00:32:10</td>\n",[m
+[32m+[m[32m       "      <td>2023-01-01 00:40:36</td>\n",[m
+[32m+[m[32m       "      <td>1.0</td>\n",[m
+[32m+[m[32m       "      <td>0.97</td>\n",[m
+[32m+[m[32m       "      <td>1.0</td>\n",[m
+[32m+[m[32m       "      <td>N</td>\n",[m
+[32m+[m[32m       "      <td>161</td>\n",[m
+[32m+[m[32m       "      <td>141</td>\n",[m
+[32m+[m[32m       "      <td>2</td>\n",[m
+[32m+[m[32m       "      <td>9.3</td>\n",[m
+[32m+[m[32m       "      <td>1.00</td>\n",[m
+[32m+[m[32m       "      <td>0.5</td>\n",[m
+[32m+[m[32m       "      <td>0.00</td>\n",[m
+[32m+[m[32m       "      <td>0.0</td>\n",[m
+[32m+[m[32m       "      <td>1.0</td>\n",[m
+[32m+[m[32m       "      <td>14.30</td>\n",[m
+[32m+[m[32m       "      <td>2.5</td>\n",[m
+[32m+[m[32m       "      <td>0.00</td>\n",[m
+[32m+[m[32m       "    </tr>\n",[m
+[32m+[m[32m       "    <tr>\n",[m
+[32m+[m[32m       "      <th>1</th>\n",[m
+[32m+[m[32m       "      <td>2</td>\n",[m
+[32m+[m[32m       "      <td>2023-01-01 00:55:08</td>\n",[m
+[32m+[m[32m       "      <td>2023-01-01 01:01:27</td>\n",[m
+[32m+[m[32m       "      <td>1.0</td>\n",[m
+[32m+[m[32m       "      <td>1.10</td>\n",[m
+[32m+[m[32m       "      <td>1.0</td>\n",[m
+[32m+[m[32m       "      <td>N</td>\n",[m
+[32m+[m[32m       "      <td>43</td>\n",[m
+[32m+[m[32m       "      <td>237</td>\n",[m
+[32m+[m[32m       "      <td>1</td>\n",[m
+[32m+[m[32m       "      <td>7.9</td>\n",[m
+[32m+[m[32m       "      <td>1.00</td>\n",[m
+[32m+[m[32m       "      <td>0.5</td>\n",[m
+[32m+[m[32m       "      <td>4.00</td>\n",[m
+[32m+[m[32m       "      <td>0.0</td>\n",[m
+[32m+[m[32m       "      <td>1.0</td>\n",[m
+[32m+[m[32m       "      <td>16.90</td>\n",[m
+[32m+[m[32m       "      <td>2.5</td>\n",[m
+[32m+[m[32m       "      <td>0.00</td>\n",[m
+[32m+[m[32m       "    </tr>\n",[m
+[32m+[m[32m       "    <tr>\n",[m
+[32m+[m[32m       "      <th>2</th>\n",[m
+[32m+[m[32m       "      <td>2</td>\n",[m
+[32m+[m[32m       "      <td>2023-01-01 00:25:04</td>\n",[m
+[32m+[m[32m       "      <td>2023-01-01 00:37:49</td>\n",[m
+[32m+[m[32m       "      <td>1.0</td>\n",[m
+[32m+[m[32m       "      <td>2.51</td>\n",[m
+[32m+[m[32m       "      <td>1.0</td>\n",[m
+[32m+[m[32m       "      <td>N</td>\n",[m
+[32m+[m[32m       "      <td>48</td>\n",[m
+[32m+[m[32m       "      <td>238</td>\n",[m
+[32m+[m[32m       "      <td>1</td>\n",[m
+[32m+[m[32m       "      <td>14.9</td>\n",[m
+[32m+[m[32m       "      <td>1.00</td>\n",[m
+[32m+[m[32m       "      <td>0.5</td>\n",[m
+[32m+[m[32m       "      <td>15.00</td>\n",[m
+[32m+[m[32m       "      <td>0.0</td>\n",[m
+[32m+[m[32m       "      <td>1.0</td>\n",[m
+[32m+[m[32m       "      <td>34.90</td>\n",[m
+[32m+[m[32m       "      <td>2.5</td>\n",[m
+[32m+[m[32m       "      <td>0.00</td>\n",[m
+[32m+[m[32m       "    </tr>\n",[m
+[32m+[m[32m       "    <tr>\n",[m
+[32m+[m[32m       "      <th>3</th>\n",[m
+[32m+[m[32m       "      <td>1</td>\n",[m
+[32m+[m[32m       "      <td>2023-01-01 00:03:48</td>\n",[m
+[32m+[m[32m       "      <td>2023-01-01 00:13:25</td>\n",[m
+[32m+[m[32m       "      <td>0.0</td>\n",[m
+[32m+[m[32m       "      <td>1.90</td>\n",[m
+[32m+[m[32m       "      <td>1.0</td>\n",[m
+[32m+[m[32m       "      <td>N</td>\n",[m
+[32m+[m[32m       "      <td>138</td>\n",[m
+[32m+[m[32m       "      <td>7</td>\n",[m
+[32m+[m[32m       "      <td>1</td>\n",[m
+[32m+[m[32m       "      <td>12.1</td>\n",[m
+[32m+[m[32m       "      <td>7.25</td>\n",[m
+[32m+[m[32m       "      <td>0.5</td>\n",[m
+[32m+[m[32m       "      <td>0.00</td>\n",[m
+[32m+[m[32m       "      <td>0.0</td>\n",[m
+[32m+[m[32m       "      <td>1.0</td>\n",[m
+[32m+[m[32m       "      <td>20.85</td>\n",[m
+[32m+[m[32m       "      <td>0.0</td>\n",[m
+[32m+[m[32m       "      <td>1.25</td>\n",[m
+[32m+[m[32m       "    </tr>\n",[m
+[32m+[m[32m       "    <tr>\n",[m
+[32m+[m[32m       "      <th>4</th>\n",[m
+[32m+[m[32m       "      <td>2</td>\n",[m
+[32m+[m[32m       "      <td>2023-01-01 00:10:29</td>\n",[m
+[32m+[m[32m       "      <td>2023-01-01 00:21:19</td>\n",[m
+[32m+[m[32m       "      <td>1.0</td>\n",[m
+[32m+[m[32m       "      <td>1.43</td>\n",[m
+[32m+[m[32m       "      <td>1.0</td>\n",[m
+[32m+[m[32m       "      <td>N</td>\n",[m
+[32m+[m[32m       "      <td>107</td>\n",[m
+[32m+[m[32m       "      <td>79</td>\n",[m
+[32m+[m[32m       "      <td>1</td>\n",[m
+[32m+[m[32m       "      <td>11.4</td>\n",[m
+[32m+[m[32m       "      <td>1.00</td>\n",[m
+[32m+[m[32m       "      <td>0.5</td>\n",[m
+[32m+[m[32m       "      <td>3.28</td>\n",[m
+[32m+[m[32m       "      <td>0.0</td>\n",[m
+[32m+[m[32m       "      <td>1.0</td>\n",[m
+[32m+[m[32m       "      <td>19.68</td>\n",[m
+[32m+[m[32m       "      <td>2.5</td>\n",[m
+[32m+[m[32m       "      <td>0.00</td>\n",[m
+[32m+[m[32m       "    </tr>\n",[m
+[32m+[m[32m       "  </tbody>\n",[m
+[32m+[m[32m       "</table>\n",[m
+[32m+[m[32m       "</div>"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "text/plain": [[m
+[32m+[m[32m       "   VendorID tpep_pickup_datetime tpep_dropoff_datetime  passenger_count  \\\n",[m
+[32m+[m[32m       "0         2  2023-01-01 00:32:10   2023-01-01 00:40:36              1.0   \n",[m
+[32m+[m[32m       "1         2  2023-01-01 00:55:08   2023-01-01 01:01:27              1.0   \n",[m
+[32m+[m[32m       "2         2  2023-01-01 00:25:04   2023-01-01 00:37:49              1.0   \n",[m
+[32m+[m[32m       "3         1  2023-01-01 00:03:48   2023-01-01 00:13:25              0.0   \n",[m
+[32m+[m[32m       "4         2  2023-01-01 00:10:29   2023-01-01 00:21:19              1.0   \n",[m
+[32m+[m[32m       "\n",[m
+[32m+[m[32m       "   trip_distance  RatecodeID store_and_fwd_flag  PULocationID  DOLocationID  \\\n",[m
+[32m+[m[32m       "0           0.97         1.0                  N           161           141   \n",[m
+[32m+[m[32m       "1           1.10         1.0                  N            43           237   \n",[m
+[32m+[m[32m       "2           2.51         1.0                  N            48           238   \n",[m
+[32m+[m[32m       "3           1.90         1.0                  N           138             7   \n",[m
+[32m+[m[32m       "4           1.43         1.0                  N           107            79   \n",[m
+[32m+[m[32m       "\n",[m
+[32m+[m[32m       "   payment_type  fare_amount  extra  mta_tax  tip_amount  tolls_amount  \\\n",[m
+[32m+[m[32m       "0             2          9.3   1.00      0.5        0.00           0.0   \n",[m
+[32m+[m[32m       "1             1          7.9   1.00      0.5        4.00           0.0   \n",[m
+[32m+[m[32m       "2             1         14.9   1.00      0.5       15.00           0.0   \n",[m
+[32m+[m[32m       "3             1         12.1   7.25      0.5        0.00           0.0   \n",[m
+[32m+[m[32m       "4             1         11.4   1.00      0.5        3.28           0.0   \n",[m
+[32m+[m[32m       "\n",[m
+[32m+[m[32m       "   improvement_surcharge  total_amount  congestion_surcharge  airport_fee  \n",[m
+[32m+[m[32m       "0                    1.0         14.30                   2.5         0.00  \n",[m
+[32m+[m[32m       "1                    1.0         16.90                   2.5         0.00  \n",[m
+[32m+[m[32m       "2                    1.0         34.90                   2.5         0.00  \n",[m
+[32m+[m[32m       "3                    1.0         20.85                   0.0         1.25  \n",[m
+[32m+[m[32m       "4                    1.0         19.68                   2.5         0.00  "[m
+[32m+[m[32m      ][m
+[32m+[m[32m     },[m
+[32m+[m[32m     "execution_count": 5,[m
+[32m+[m[32m     "metadata": {},[m
+[32m+[m[32m     "output_type": "execute_result"[m
+[32m+[m[32m    }[m
+[32m+[m[32m   ],[m
+[32m+[m[32m   "source": [[m
+[32m+[m[32m    "df.head()"[m
+[32m+[m[32m   ][m
+[32m+[m[32m  },[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "code",[m
+[32m+[m[32m   "execution_count": 6,[m
+[32m+[m[32m   "id": "f055344d-f050-4fcf-8453-ee4a66407bfe",[m
+[32m+[m[32m   "metadata": {[m
+[32m+[m[32m    "colab": {[m
+[32m+[m[32m     "base_uri": "https://localhost:8080/"[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "id": "f055344d-f050-4fcf-8453-ee4a66407bfe",[m
+[32m+[m[32m    "outputId": "68b659fe-15ba-468b-9f87-41122d66ba85"[m
+[32m+[m[32m   },[m
+[32m+[m[32m   "outputs": [[m
+[32m+[m[32m    {[m
+[32m+[m[32m     "data": {[m
+[32m+[m[32m      "text/plain": [[m
+[32m+[m[32m       "19"[m
+[32m+[m[32m      ][m
+[32m+[m[32m     },[m
+[32m+[m[32m     "execution_count": 6,[m
+[32m+[m[32m     "metadata": {},[m
+[32m+[m[32m     "output_type": "execute_result"[m
+[32m+[m[32m    }[m
+[32m+[m[32m   ],[m
+[32m+[m[32m   "source": [[m
+[32m+[m[32m    "len(df.columns)"[m
+[32m+[m[32m   ][m
+[32m+[m[32m  },[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "markdown",[m
+[32m+[m[32m   "id": "pWrLGUESBed6",[m
+[32m+[m[32m   "metadata": {[m
+[32m+[m[32m    "id": "pWrLGUESBed6"[m
+[32m+[m[32m   },[m
+[32m+[m[32m   "source": [[m
+[32m+[m[32m    "### Q2. Computing duration"[m
+[32m+[m[32m   ][m
+[32m+[m[32m  },[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "code",[m
+[32m+[m[32m   "execution_count": 7,[m
+[32m+[m[32m   "id": "b186962d-7ee1-4b97-a457-7ef2b2de811a",[m
+[32m+[m[32m   "metadata": {[m
+[32m+[m[32m    "id": "b186962d-7ee1-4b97-a457-7ef2b2de811a"[m
+[32m+[m[32m   },[m
+[32m+[m[32m   "outputs": [],[m
+[32m+[m[32m   "source": [[m
+[32m+[m[32m    "df['duration'] = df.tpep_dropoff_datetime - df.tpep_pickup_datetime\n",[m
+[32m+[m[32m    "df['duration'] = df.duration.dt.total_seconds() / 60"[m
+[32m+[m[32m   ][m
+[32m+[m[32m  },[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "code",[m
+[32m+[m[32m   "execution_count": 8,[m
+[32m+[m[32m   "id": "0e3e89da-45a3-4b12-99bb-8b56457cfa5a",[m
+[32m+[m[32m   "metadata": {[m
+[32m+[m[32m    "colab": {[m
+[32m+[m[32m     "base_uri": "https://localhost:8080/"[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "id": "0e3e89da-45a3-4b12-99bb-8b56457cfa5a",[m
+[32m+[m[32m    "outputId": "289c84a9-b93f-4400-edd9-300dada8dec0"[m
+[32m+[m[32m   },[m
+[32m+[m[32m   "outputs": [[m
+[32m+[m[32m    {[m
+[32m+[m[32m     "data": {[m
+[32m+[m[32m      "text/plain": [[m
+[32m+[m[32m       "15.668995167332046"[m
+[32m+[m[32m      ][m
+[32m+[m[32m     },[m
+[32m+[m[32m     "execution_count": 8,[m
+[32m+[m[32m     "metadata": {},[m
+[32m+[m[32m     "output_type": "execute_result"[m
+[32m+[m[32m    }[m
+[32m+[m[32m   ],[m
+[32m+[m[32m   "source": [[m
+[32m+[m[32m    "df.duration.mean()"[m
+[32m+[m[32m   ][m
+[32m+[m[32m  },[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "code",[m
+[32m+[m[32m   "execution_count": 10,[m
+[32m+[m[32m   "id": "9da88772-b29c-4c46-8859-7c28ac2be021",[m
+[32m+[m[32m   "metadata": {[m
+[32m+[m[32m    "colab": {[m
+[32m+[m[32m     "base_uri": "https://localhost:8080/"[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "id": "9da88772-b29c-4c46-8859-7c28ac2be021",[m
+[32m+[m[32m    "outputId": "d8bc9a61-e953-400a-98a5-9613b8bc7021",[m
+[32m+[m[32m    "tags": [][m
+[32m+[m[32m   },[m
+[32m+[m[32m   "outputs": [[m
+[32m+[m[32m    {[m
+[32m+[m[32m     "data": {[m
+[32m+[m[32m      "text/plain": [[m
+[32m+[m[32m       "42.594351241920904"[m
+[32m+[m[32m      ][m
+[32m+[m[32m     },[m
+[32m+[m[32m     "execution_count": 10,[m
+[32m+[m[32m     "metadata": {},[m
+[32m+[m[32m     "output_type": "execute_result"[m
+[32m+[m[32m    }[m
+[32m+[m[32m   ],[m
+[32m+[m[32m   "source": [[m
+[32m+[m[32m    "df.duration.std()"[m
+[32m+[m[32m   ][m
+[32m+[m[32m  },[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "markdown",[m
+[32m+[m[32m   "id": "ca0c395a-d5cf-4870-aa64-edb4809bc662",[m
+[32m+[m[32m   "metadata": {[m
+[32m+[m[32m    "id": "ca0c395a-d5cf-4870-aa64-edb4809bc662"[m
+[32m+[m[32m   },[m
+[32m+[m[32m   "source": [[m
+[32m+[m[32m    "### Q3. Dropping outliers"[m
+[32m+[m[32m   ][m
+[32m+[m[32m  },[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "code",[m
+[32m+[m[32m   "execution_count": 11,[m
+[32m+[m[32m   "id": "a06d9882-82bc-40eb-954e-ebabde6e5431",[m
+[32m+[m[32m   "metadata": {[m
+[32m+[m[32m    "colab": {[m
+[32m+[m[32m     "base_uri": "https://localhost:8080/"[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "id": "a06d9882-82bc-40eb-954e-ebabde6e5431",[m
+[32m+[m[32m    "outputId": "b318ae8f-3d3c-4115-8111-9415bd7def9b"[m
+[32m+[m[32m   },[m
+[32m+[m[32m   "outputs": [[m
+[32m+[m[32m    {[m
+[32m+[m[32m     "data": {[m
+[32m+[m[32m      "text/plain": [[m
+[32m+[m[32m       "98.1220282212598"[m
+[32m+[m[32m      ][m
+[32m+[m[32m     },[m
+[32m+[m[32m     "execution_count": 11,[m
+[32m+[m[32m     "metadata": {},[m
+[32m+[m[32m     "output_type": "execute_result"[m
+[32m+[m[32m    }[m
+[32m+[m[32m   ],[m
+[32m+[m[32m   "source": [[m
+[32m+[m[32m    "len(df[(df.duration >= 1) & (df.duration <= 60)]) / len(df) * 100"[m
+[32m+[m[32m   ][m
+[32m+[m[32m  },[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "code",[m
+[32m+[m[32m   "execution_count": 12,[m
+[32m+[m[32m   "id": "0fd4307e-f3b6-45ba-bf1d-82e4a1c09a9b",[m
+[32m+[m[32m   "metadata": {[m
+[32m+[m[32m    "id": "0fd4307e-f3b6-45ba-bf1d-82e4a1c09a9b"[m
+[32m+[m[32m   },[m
+[32m+[m[32m   "outputs": [],[m
+[32m+[m[32m   "source": [[m
+[32m+[m[32m    "df = df[(df.duration >= 1) & (df.duration <= 60)].copy()"[m
+[32m+[m[32m   ][m
+[32m+[m[32m  },[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "markdown",[m
+[32m+[m[32m   "id": "00b428a6-3438-4482-91fb-04ed17f5fe8d",[m
+[32m+[m[32m   "metadata": {[m
+[32m+[m[32m    "id": "00b428a6-3438-4482-91fb-04ed17f5fe8d"[m
+[32m+[m[32m   },[m
+[32m+[m[32m   "source": [[m
+[32m+[m[32m    "### Q4. One-hot encoding"[m
+[32m+[m[32m   ][m
+[32m+[m[32m  },[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "code",[m
+[32m+[m[32m   "execution_count": 13,[m
+[32m+[m[32m   "id": "96043224-1a51-4922-901c-c660b0bc8a5b",[m
+[32m+[m[32m   "metadata": {[m
+[32m+[m[32m    "i
