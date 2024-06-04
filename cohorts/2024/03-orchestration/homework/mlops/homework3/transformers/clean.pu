@@ -1,0 +1,18 @@
+from typing import Tuple
+
+import pandas as pd
+
+from mlops.homework3.utils.cleaning import clean 
+
+if 'transformer' not in globals():
+    from mage_ai.data_preparation.decorators import transformer
+
+
+@transformer
+def transform(
+    df: pd.DataFrame, **kwargs
+) -> Tuple[pd.DataFrame]:
+
+    df = clean(df)
+
+    return df
