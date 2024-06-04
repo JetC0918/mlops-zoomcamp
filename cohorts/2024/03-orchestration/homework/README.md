@@ -24,7 +24,7 @@
 - Block that is used to export the data
 
 #### Pipeline used in homework
-![image](/mlops/homework3/images/1.JPG)
+![image](/cohorts/2024/03-orchestration/homework/mlops/homework3/images/1.JPG)
 
 - `Data_loader` block with file `data loader`
 - The `Data_loader` block will load file and return a `df`
