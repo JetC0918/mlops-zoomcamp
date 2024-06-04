@@ -119,11 +119,12 @@ runs = client.search_runs(
 ```
 Register model
 ```mlflow.register_model(model_uri=model_uri, name="nyc-taxi-regressor")```
-Update model description
+
+Setting Stage
 ```
-client.update_model_version(
-    name=model_name,
-    version=model_version,
-    description=f'The model version {model_version} was transisitioned to {new_stage} on {date}'
-)
+from mlflow import MlflowClient
+
+client = MlflowClient()
+
+client.set_registered_model_alias("nyc-taxi-regressor", "champion", 1)
 ```
