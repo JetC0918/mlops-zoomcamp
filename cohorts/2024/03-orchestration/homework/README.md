@@ -24,4 +24,4 @@
 - Block that is used to export the data
 
 #### Pipeline used in homework
-![image](cohorts/2024/03-orchestration/homework/mlops/homework3/images/1.JPG)
+![image](homework/mlops/homework3/images/1.JPG)
