@@ -24,4 +24,10 @@
 - Block that is used to export the data
 
 #### Pipeline used in homework
-![image](homework/mlops/homework3/images/1.JPG)
+![image](/mlops/homework3/images/1.JPG)
+
+- `Data_loader` block with file `data loader`
+- The `Data_loader` block will load file and return a `df`
+- First `Traansformer` block with `clean` file will clean the `df` from `Data_loader`
+- Second `Transformer` block with `dv__model` file will fit a `dict vectorizer` and train a `Linear Regression` model
+- `Data_exporter` with `export` file will register the model 
