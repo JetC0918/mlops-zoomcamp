@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/253543047550040700/253e3a0c61bf404b935cb85204b6d3ff/artifacts
+end_time: 1747830381543
+entry_point_name: ''
+experiment_id: '253543047550040700'
+lifecycle_stage: active
+run_id: 253e3a0c61bf404b935cb85204b6d3ff
+run_name: shivering-ape-566
+run_uuid: 253e3a0c61bf404b935cb85204b6d3ff
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747830360572
+status: 3
+tags: []
+user_id: crab

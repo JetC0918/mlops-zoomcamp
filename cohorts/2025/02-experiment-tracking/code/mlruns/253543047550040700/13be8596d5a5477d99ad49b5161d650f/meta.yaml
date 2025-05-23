@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/253543047550040700/13be8596d5a5477d99ad49b5161d650f/artifacts
+end_time: 1747832772980
+entry_point_name: ''
+experiment_id: '253543047550040700'
+lifecycle_stage: active
+run_id: 13be8596d5a5477d99ad49b5161d650f
+run_name: rogue-owl-140
+run_uuid: 13be8596d5a5477d99ad49b5161d650f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747832743308
+status: 3
+tags: []
+user_id: crab

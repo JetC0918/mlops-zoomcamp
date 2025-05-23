@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/253543047550040700/49927142853d4e17b7afc682030e9f5b/artifacts
+end_time: 1747831716846
+entry_point_name: ''
+experiment_id: '253543047550040700'
+lifecycle_stage: active
+run_id: 49927142853d4e17b7afc682030e9f5b
+run_name: sincere-dog-126
+run_uuid: 49927142853d4e17b7afc682030e9f5b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747831657565
+status: 3
+tags: []
+user_id: crab

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/253543047550040700/f8006d85bfa9426a9c4aec9f7ef2a76e/artifacts
+end_time: 1747833341411
+entry_point_name: ''
+experiment_id: '253543047550040700'
+lifecycle_stage: active
+run_id: f8006d85bfa9426a9c4aec9f7ef2a76e
+run_name: inquisitive-cat-179
+run_uuid: f8006d85bfa9426a9c4aec9f7ef2a76e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747833137806
+status: 3
+tags: []
+user_id: crab

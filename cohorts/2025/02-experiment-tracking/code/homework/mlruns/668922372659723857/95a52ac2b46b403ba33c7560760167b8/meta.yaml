@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/668922372659723857/95a52ac2b46b403ba33c7560760167b8/artifacts
+end_time: 1748006560037
+entry_point_name: ''
+experiment_id: '668922372659723857'
+lifecycle_stage: active
+run_id: 95a52ac2b46b403ba33c7560760167b8
+run_name: unleashed-rat-542
+run_uuid: 95a52ac2b46b403ba33c7560760167b8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748006555700
+status: 3
+tags: []
+user_id: crab

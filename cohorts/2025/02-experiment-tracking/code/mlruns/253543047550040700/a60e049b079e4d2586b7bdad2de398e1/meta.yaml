@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/253543047550040700/a60e049b079e4d2586b7bdad2de398e1/artifacts
+end_time: 1747831897542
+entry_point_name: ''
+experiment_id: '253543047550040700'
+lifecycle_stage: active
+run_id: a60e049b079e4d2586b7bdad2de398e1
+run_name: bemused-hog-99
+run_uuid: a60e049b079e4d2586b7bdad2de398e1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747831874401
+status: 3
+tags: []
+user_id: crab

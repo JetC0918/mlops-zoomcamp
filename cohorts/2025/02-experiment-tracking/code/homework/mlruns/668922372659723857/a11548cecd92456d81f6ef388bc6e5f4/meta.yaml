@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/668922372659723857/a11548cecd92456d81f6ef388bc6e5f4/artifacts
+end_time: 1748006542695
+entry_point_name: ''
+experiment_id: '668922372659723857'
+lifecycle_stage: active
+run_id: a11548cecd92456d81f6ef388bc6e5f4
+run_name: upset-gnu-475
+run_uuid: a11548cecd92456d81f6ef388bc6e5f4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748006528055
+status: 3
+tags: []
+user_id: crab

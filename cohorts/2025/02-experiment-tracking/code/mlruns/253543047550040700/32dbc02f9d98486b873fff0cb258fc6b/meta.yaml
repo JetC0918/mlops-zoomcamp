@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/253543047550040700/32dbc02f9d98486b873fff0cb258fc6b/artifacts
+end_time: 1747831810917
+entry_point_name: ''
+experiment_id: '253543047550040700'
+lifecycle_stage: active
+run_id: 32dbc02f9d98486b873fff0cb258fc6b
+run_name: bald-roo-542
+run_uuid: 32dbc02f9d98486b873fff0cb258fc6b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747831716928
+status: 3
+tags: []
+user_id: crab

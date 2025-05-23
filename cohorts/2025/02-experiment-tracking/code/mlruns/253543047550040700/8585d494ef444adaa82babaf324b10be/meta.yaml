@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/253543047550040700/8585d494ef444adaa82babaf324b10be/artifacts
+end_time: 1747831971426
+entry_point_name: ''
+experiment_id: '253543047550040700'
+lifecycle_stage: active
+run_id: 8585d494ef444adaa82babaf324b10be
+run_name: placid-grouse-763
+run_uuid: 8585d494ef444adaa82babaf324b10be
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747831897620
+status: 3
+tags: []
+user_id: crab

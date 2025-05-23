@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/253543047550040700/0826afd138d24daebeeae4c942c88665/artifacts
+end_time: 1747830772981
+entry_point_name: ''
+experiment_id: '253543047550040700'
+lifecycle_stage: active
+run_id: 0826afd138d24daebeeae4c942c88665
+run_name: burly-kit-705
+run_uuid: 0826afd138d24daebeeae4c942c88665
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747830735429
+status: 3
+tags: []
+user_id: crab

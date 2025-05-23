@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/253543047550040700/c68b3d24335e40cb97669a327d9e428d/artifacts
+end_time: 1747831439804
+entry_point_name: ''
+experiment_id: '253543047550040700'
+lifecycle_stage: active
+run_id: c68b3d24335e40cb97669a327d9e428d
+run_name: colorful-ant-797
+run_uuid: c68b3d24335e40cb97669a327d9e428d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747831313807
+status: 3
+tags: []
+user_id: crab

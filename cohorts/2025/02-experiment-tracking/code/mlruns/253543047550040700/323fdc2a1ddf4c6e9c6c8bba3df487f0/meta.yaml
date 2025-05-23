@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/253543047550040700/323fdc2a1ddf4c6e9c6c8bba3df487f0/artifacts
+end_time: 1747833028420
+entry_point_name: ''
+experiment_id: '253543047550040700'
+lifecycle_stage: active
+run_id: 323fdc2a1ddf4c6e9c6c8bba3df487f0
+run_name: resilient-bat-637
+run_uuid: 323fdc2a1ddf4c6e9c6c8bba3df487f0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747832991000
+status: 3
+tags: []
+user_id: crab

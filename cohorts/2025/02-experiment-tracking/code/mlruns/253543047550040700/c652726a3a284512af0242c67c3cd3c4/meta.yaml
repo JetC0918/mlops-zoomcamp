@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/253543047550040700/c652726a3a284512af0242c67c3cd3c4/artifacts
+end_time: 1747832990904
+entry_point_name: ''
+experiment_id: '253543047550040700'
+lifecycle_stage: active
+run_id: c652726a3a284512af0242c67c3cd3c4
+run_name: fun-ram-903
+run_uuid: c652726a3a284512af0242c67c3cd3c4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747832835562
+status: 3
+tags: []
+user_id: crab

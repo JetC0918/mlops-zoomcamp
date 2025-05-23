@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/253543047550040700/eaefd12f4b09421aaac90e3d6970479b/artifacts
+end_time: 1747833112884
+entry_point_name: ''
+experiment_id: '253543047550040700'
+lifecycle_stage: active
+run_id: eaefd12f4b09421aaac90e3d6970479b
+run_name: treasured-sponge-605
+run_uuid: eaefd12f4b09421aaac90e3d6970479b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747833088258
+status: 3
+tags: []
+user_id: crab

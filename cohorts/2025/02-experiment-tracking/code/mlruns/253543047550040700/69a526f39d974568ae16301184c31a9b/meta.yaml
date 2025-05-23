@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/253543047550040700/69a526f39d974568ae16301184c31a9b/artifacts
+end_time: 1747831828704
+entry_point_name: ''
+experiment_id: '253543047550040700'
+lifecycle_stage: active
+run_id: 69a526f39d974568ae16301184c31a9b
+run_name: peaceful-crane-765
+run_uuid: 69a526f39d974568ae16301184c31a9b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747831811009
+status: 3
+tags: []
+user_id: crab

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/253543047550040700/d195752793b747a29a8aaac5730acb9b/artifacts
+end_time: 1747833137727
+entry_point_name: ''
+experiment_id: '253543047550040700'
+lifecycle_stage: active
+run_id: d195752793b747a29a8aaac5730acb9b
+run_name: silent-shrike-983
+run_uuid: d195752793b747a29a8aaac5730acb9b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747833112964
+status: 3
+tags: []
+user_id: crab

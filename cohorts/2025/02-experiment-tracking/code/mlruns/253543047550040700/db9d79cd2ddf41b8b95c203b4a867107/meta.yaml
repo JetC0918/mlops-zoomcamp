@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/253543047550040700/db9d79cd2ddf41b8b95c203b4a867107/artifacts
+end_time: 1747832407666
+entry_point_name: ''
+experiment_id: '253543047550040700'
+lifecycle_stage: active
+run_id: db9d79cd2ddf41b8b95c203b4a867107
+run_name: legendary-lamb-269
+run_uuid: db9d79cd2ddf41b8b95c203b4a867107
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747832267373
+status: 3
+tags: []
+user_id: crab

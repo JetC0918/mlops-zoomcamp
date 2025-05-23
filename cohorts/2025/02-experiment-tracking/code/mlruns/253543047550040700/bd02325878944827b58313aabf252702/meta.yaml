@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/253543047550040700/bd02325878944827b58313aabf252702/artifacts
+end_time: 1747831579888
+entry_point_name: ''
+experiment_id: '253543047550040700'
+lifecycle_stage: active
+run_id: bd02325878944827b58313aabf252702
+run_name: nervous-conch-904
+run_uuid: bd02325878944827b58313aabf252702
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747831518834
+status: 3
+tags: []
+user_id: crab

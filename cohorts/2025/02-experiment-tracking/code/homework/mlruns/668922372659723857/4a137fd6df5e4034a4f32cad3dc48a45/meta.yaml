@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/668922372659723857/4a137fd6df5e4034a4f32cad3dc48a45/artifacts
+end_time: 1748006479346
+entry_point_name: ''
+experiment_id: '668922372659723857'
+lifecycle_stage: active
+run_id: 4a137fd6df5e4034a4f32cad3dc48a45
+run_name: nebulous-crane-998
+run_uuid: 4a137fd6df5e4034a4f32cad3dc48a45
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748006441652
+status: 3
+tags: []
+user_id: crab

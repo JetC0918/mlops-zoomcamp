@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/253543047550040700/058c124e3c14491a8da5b848d475739b/artifacts
+end_time: 1747831518749
+entry_point_name: ''
+experiment_id: '253543047550040700'
+lifecycle_stage: active
+run_id: 058c124e3c14491a8da5b848d475739b
+run_name: angry-auk-3
+run_uuid: 058c124e3c14491a8da5b848d475739b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747831481651
+status: 3
+tags: []
+user_id: crab

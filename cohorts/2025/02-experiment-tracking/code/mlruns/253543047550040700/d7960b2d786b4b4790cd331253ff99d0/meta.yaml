@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/253543047550040700/d7960b2d786b4b4790cd331253ff99d0/artifacts
+end_time: 1747832835476
+entry_point_name: ''
+experiment_id: '253543047550040700'
+lifecycle_stage: active
+run_id: d7960b2d786b4b4790cd331253ff99d0
+run_name: bright-hawk-717
+run_uuid: d7960b2d786b4b4790cd331253ff99d0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747832773061
+status: 3
+tags: []
+user_id: crab

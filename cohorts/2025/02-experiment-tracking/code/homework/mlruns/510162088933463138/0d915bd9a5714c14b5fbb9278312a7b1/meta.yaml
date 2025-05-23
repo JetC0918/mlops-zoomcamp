@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/510162088933463138/0d915bd9a5714c14b5fbb9278312a7b1/artifacts
+end_time: 1748004700306
+entry_point_name: ''
+experiment_id: '510162088933463138'
+lifecycle_stage: active
+run_id: 0d915bd9a5714c14b5fbb9278312a7b1
+run_name: mysterious-owl-808
+run_uuid: 0d915bd9a5714c14b5fbb9278312a7b1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748004599088
+status: 3
+tags: []
+user_id: crab

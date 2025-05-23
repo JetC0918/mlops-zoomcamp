@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/924568691926401311/99fc11dea25d4d5d9dcf451912d4b1f1/artifacts
+end_time: 1748007230698
+entry_point_name: ''
+experiment_id: '924568691926401311'
+lifecycle_stage: active
+run_id: 99fc11dea25d4d5d9dcf451912d4b1f1
+run_name: gifted-calf-173
+run_uuid: 99fc11dea25d4d5d9dcf451912d4b1f1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748007178666
+status: 3
+tags: []
+user_id: crab

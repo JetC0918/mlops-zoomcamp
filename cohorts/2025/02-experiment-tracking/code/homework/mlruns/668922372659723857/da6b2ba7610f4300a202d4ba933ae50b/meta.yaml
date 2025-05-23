@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/668922372659723857/da6b2ba7610f4300a202d4ba933ae50b/artifacts
+end_time: 1748006390937
+entry_point_name: ''
+experiment_id: '668922372659723857'
+lifecycle_stage: active
+run_id: da6b2ba7610f4300a202d4ba933ae50b
+run_name: luminous-sheep-960
+run_uuid: da6b2ba7610f4300a202d4ba933ae50b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748006368335
+status: 3
+tags: []
+user_id: crab

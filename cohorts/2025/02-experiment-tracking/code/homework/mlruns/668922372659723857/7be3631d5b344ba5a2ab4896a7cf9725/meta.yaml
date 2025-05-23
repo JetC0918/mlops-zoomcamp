@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/668922372659723857/7be3631d5b344ba5a2ab4896a7cf9725/artifacts
+end_time: 1748006402367
+entry_point_name: ''
+experiment_id: '668922372659723857'
+lifecycle_stage: active
+run_id: 7be3631d5b344ba5a2ab4896a7cf9725
+run_name: indecisive-moth-888
+run_uuid: 7be3631d5b344ba5a2ab4896a7cf9725
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748006391134
+status: 3
+tags: []
+user_id: crab

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/668922372659723857/591c5032e4084361afe1d440c94dbeb1/artifacts
+end_time: 1748006596647
+entry_point_name: ''
+experiment_id: '668922372659723857'
+lifecycle_stage: active
+run_id: 591c5032e4084361afe1d440c94dbeb1
+run_name: illustrious-vole-506
+run_uuid: 591c5032e4084361afe1d440c94dbeb1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748006574587
+status: 3
+tags: []
+user_id: crab

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/668922372659723857/b48e8ae5f5d3420d961a64a7177830c0/artifacts
+end_time: 1748006483665
+entry_point_name: ''
+experiment_id: '668922372659723857'
+lifecycle_stage: active
+run_id: b48e8ae5f5d3420d961a64a7177830c0
+run_name: gregarious-ape-516
+run_uuid: b48e8ae5f5d3420d961a64a7177830c0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748006479560
+status: 3
+tags: []
+user_id: crab

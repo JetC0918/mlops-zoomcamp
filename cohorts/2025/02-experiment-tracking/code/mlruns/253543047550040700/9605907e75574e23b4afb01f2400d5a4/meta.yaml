@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/253543047550040700/9605907e75574e23b4afb01f2400d5a4/artifacts
+end_time: 1747830735310
+entry_point_name: ''
+experiment_id: '253543047550040700'
+lifecycle_stage: active
+run_id: 9605907e75574e23b4afb01f2400d5a4
+run_name: bustling-quail-647
+run_uuid: 9605907e75574e23b4afb01f2400d5a4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747830712031
+status: 3
+tags: []
+user_id: crab

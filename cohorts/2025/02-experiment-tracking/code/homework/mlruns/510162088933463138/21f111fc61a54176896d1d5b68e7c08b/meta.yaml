@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/510162088933463138/21f111fc61a54176896d1d5b68e7c08b/artifacts
+end_time: 1748006179806
+entry_point_name: ''
+experiment_id: '510162088933463138'
+lifecycle_stage: active
+run_id: 21f111fc61a54176896d1d5b68e7c08b
+run_name: bemused-boar-500
+run_uuid: 21f111fc61a54176896d1d5b68e7c08b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748006082988
+status: 3
+tags: []
+user_id: crab

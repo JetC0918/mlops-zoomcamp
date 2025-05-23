@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/253543047550040700/b9cccfa0d1154fdeb6e08d708171cff4/artifacts
+end_time: 1747832050664
+entry_point_name: ''
+experiment_id: '253543047550040700'
+lifecycle_stage: active
+run_id: b9cccfa0d1154fdeb6e08d708171cff4
+run_name: bright-fish-217
+run_uuid: b9cccfa0d1154fdeb6e08d708171cff4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747831990246
+status: 3
+tags: []
+user_id: crab

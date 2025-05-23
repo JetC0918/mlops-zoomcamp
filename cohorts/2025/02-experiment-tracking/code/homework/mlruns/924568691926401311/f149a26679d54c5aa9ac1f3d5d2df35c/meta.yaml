@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/924568691926401311/f149a26679d54c5aa9ac1f3d5d2df35c/artifacts
+end_time: 1748007279473
+entry_point_name: ''
+experiment_id: '924568691926401311'
+lifecycle_stage: active
+run_id: f149a26679d54c5aa9ac1f3d5d2df35c
+run_name: judicious-snake-651
+run_uuid: f149a26679d54c5aa9ac1f3d5d2df35c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748007231052
+status: 3
+tags: []
+user_id: crab

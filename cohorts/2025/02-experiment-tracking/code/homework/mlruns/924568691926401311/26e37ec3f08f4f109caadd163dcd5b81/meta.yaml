@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/924568691926401311/26e37ec3f08f4f109caadd163dcd5b81/artifacts
+end_time: 1748007127432
+entry_point_name: ''
+experiment_id: '924568691926401311'
+lifecycle_stage: active
+run_id: 26e37ec3f08f4f109caadd163dcd5b81
+run_name: mysterious-gnu-621
+run_uuid: 26e37ec3f08f4f109caadd163dcd5b81
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748007059425
+status: 3
+tags: []
+user_id: crab

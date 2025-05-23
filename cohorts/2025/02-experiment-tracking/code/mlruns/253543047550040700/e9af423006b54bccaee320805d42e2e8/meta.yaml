@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/253543047550040700/e9af423006b54bccaee320805d42e2e8/artifacts
+end_time: 1747830948964
+entry_point_name: ''
+experiment_id: '253543047550040700'
+lifecycle_stage: active
+run_id: e9af423006b54bccaee320805d42e2e8
+run_name: awesome-pig-337
+run_uuid: e9af423006b54bccaee320805d42e2e8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747830773088
+status: 3
+tags: []
+user_id: crab

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/253543047550040700/585c3a6914e94e5abde1a46701ad502a/artifacts
+end_time: 1747832548157
+entry_point_name: ''
+experiment_id: '253543047550040700'
+lifecycle_stage: active
+run_id: 585c3a6914e94e5abde1a46701ad502a
+run_name: smiling-lamb-421
+run_uuid: 585c3a6914e94e5abde1a46701ad502a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747832407757
+status: 3
+tags: []
+user_id: crab

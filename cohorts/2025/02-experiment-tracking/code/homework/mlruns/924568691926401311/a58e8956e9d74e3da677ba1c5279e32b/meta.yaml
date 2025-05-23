@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/924568691926401311/a58e8956e9d74e3da677ba1c5279e32b/artifacts
+end_time: 1748007178314
+entry_point_name: ''
+experiment_id: '924568691926401311'
+lifecycle_stage: active
+run_id: a58e8956e9d74e3da677ba1c5279e32b
+run_name: inquisitive-gull-279
+run_uuid: a58e8956e9d74e3da677ba1c5279e32b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748007127812
+status: 3
+tags: []
+user_id: crab

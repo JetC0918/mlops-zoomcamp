@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/668922372659723857/4bfaf4be02b7465e8ea8096a3ccc590c/artifacts
+end_time: 1748006363339
+entry_point_name: ''
+experiment_id: '668922372659723857'
+lifecycle_stage: active
+run_id: 4bfaf4be02b7465e8ea8096a3ccc590c
+run_name: overjoyed-squid-808
+run_uuid: 4bfaf4be02b7465e8ea8096a3ccc590c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748006330231
+status: 3
+tags: []
+user_id: crab

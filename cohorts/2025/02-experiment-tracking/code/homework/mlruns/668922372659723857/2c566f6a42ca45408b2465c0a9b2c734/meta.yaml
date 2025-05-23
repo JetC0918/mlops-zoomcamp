@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/668922372659723857/2c566f6a42ca45408b2465c0a9b2c734/artifacts
+end_time: 1748006365320
+entry_point_name: ''
+experiment_id: '668922372659723857'
+lifecycle_stage: active
+run_id: 2c566f6a42ca45408b2465c0a9b2c734
+run_name: invincible-ant-547
+run_uuid: 2c566f6a42ca45408b2465c0a9b2c734
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748006363509
+status: 3
+tags: []
+user_id: crab

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/253543047550040700/a1cde654bdf6462bb8a71bca8785c8ca/artifacts
+end_time: 1747833889286
+entry_point_name: ''
+experiment_id: '253543047550040700'
+lifecycle_stage: active
+run_id: a1cde654bdf6462bb8a71bca8785c8ca
+run_name: vaunted-ant-532
+run_uuid: a1cde654bdf6462bb8a71bca8785c8ca
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747833789969
+status: 3
+tags: []
+user_id: crab

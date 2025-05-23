@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/668922372659723857/8e69d7790a7c4ccfaa5400bcd9da15e0/artifacts
+end_time: 1748006555466
+entry_point_name: ''
+experiment_id: '668922372659723857'
+lifecycle_stage: active
+run_id: 8e69d7790a7c4ccfaa5400bcd9da15e0
+run_name: delightful-chimp-531
+run_uuid: 8e69d7790a7c4ccfaa5400bcd9da15e0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748006542855
+status: 3
+tags: []
+user_id: crab

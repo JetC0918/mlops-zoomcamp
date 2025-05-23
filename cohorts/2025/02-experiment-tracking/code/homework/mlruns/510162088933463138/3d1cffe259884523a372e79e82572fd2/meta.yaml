@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/510162088933463138/3d1cffe259884523a372e79e82572fd2/artifacts
+deleted_time: 1748004580286
+end_time: 1748004325852
+entry_point_name: ''
+experiment_id: '510162088933463138'
+lifecycle_stage: deleted
+run_id: 3d1cffe259884523a372e79e82572fd2
+run_name: masked-cat-722
+run_uuid: 3d1cffe259884523a372e79e82572fd2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748004276898
+status: 3
+tags: []
+user_id: crab

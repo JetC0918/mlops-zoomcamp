@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/253543047550040700/167fad8c424148968a663725bb475edf/artifacts
+end_time: 1747831313723
+entry_point_name: ''
+experiment_id: '253543047550040700'
+lifecycle_stage: active
+run_id: 167fad8c424148968a663725bb475edf
+run_name: dazzling-wolf-43
+run_uuid: 167fad8c424148968a663725bb475edf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747831160312
+status: 3
+tags: []
+user_id: crab

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/510162088933463138/9311b3a816334c4098eae6927eb423de/artifacts
+deleted_time: 1748004013723
+end_time: null
+entry_point_name: ''
+experiment_id: '510162088933463138'
+lifecycle_stage: deleted
+run_id: 9311b3a816334c4098eae6927eb423de
+run_name: merciful-bear-801
+run_uuid: 9311b3a816334c4098eae6927eb423de
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748003706751
+status: 1
+tags: []
+user_id: crab

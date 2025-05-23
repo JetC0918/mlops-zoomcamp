@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/668922372659723857/e4a63d4b52e54210a3d3e6f5ef32b3c3/artifacts
+end_time: 1748006253328
+entry_point_name: ''
+experiment_id: '668922372659723857'
+lifecycle_stage: active
+run_id: e4a63d4b52e54210a3d3e6f5ef32b3c3
+run_name: sedate-fowl-707
+run_uuid: e4a63d4b52e54210a3d3e6f5ef32b3c3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748006220040
+status: 4
+tags: []
+user_id: crab

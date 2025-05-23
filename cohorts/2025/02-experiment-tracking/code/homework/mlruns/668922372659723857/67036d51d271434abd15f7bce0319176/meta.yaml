@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/668922372659723857/67036d51d271434abd15f7bce0319176/artifacts
+end_time: 1748006441460
+entry_point_name: ''
+experiment_id: '668922372659723857'
+lifecycle_stage: active
+run_id: 67036d51d271434abd15f7bce0319176
+run_name: polite-roo-688
+run_uuid: 67036d51d271434abd15f7bce0319176
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748006402536
+status: 3
+tags: []
+user_id: crab

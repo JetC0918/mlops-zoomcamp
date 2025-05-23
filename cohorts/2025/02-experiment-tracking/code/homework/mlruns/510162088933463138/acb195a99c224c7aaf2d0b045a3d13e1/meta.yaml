@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/510162088933463138/acb195a99c224c7aaf2d0b045a3d13e1/artifacts
+deleted_time: 1748003513369
+end_time: null
+entry_point_name: ''
+experiment_id: '510162088933463138'
+lifecycle_stage: deleted
+run_id: acb195a99c224c7aaf2d0b045a3d13e1
+run_name: fortunate-shoat-102
+run_uuid: acb195a99c224c7aaf2d0b045a3d13e1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748003435856
+status: 1
+tags: []
+user_id: crab

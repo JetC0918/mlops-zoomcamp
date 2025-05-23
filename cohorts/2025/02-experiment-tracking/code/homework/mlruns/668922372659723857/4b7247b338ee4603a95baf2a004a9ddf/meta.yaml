@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/668922372659723857/4b7247b338ee4603a95baf2a004a9ddf/artifacts
+end_time: 1748006508191
+entry_point_name: ''
+experiment_id: '668922372659723857'
+lifecycle_stage: active
+run_id: 4b7247b338ee4603a95baf2a004a9ddf
+run_name: spiffy-hog-905
+run_uuid: 4b7247b338ee4603a95baf2a004a9ddf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748006483848
+status: 3
+tags: []
+user_id: crab

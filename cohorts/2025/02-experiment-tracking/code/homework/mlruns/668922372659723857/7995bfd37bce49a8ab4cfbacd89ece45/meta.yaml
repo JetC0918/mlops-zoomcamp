@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/668922372659723857/7995bfd37bce49a8ab4cfbacd89ece45/artifacts
+end_time: 1748006574401
+entry_point_name: ''
+experiment_id: '668922372659723857'
+lifecycle_stage: active
+run_id: 7995bfd37bce49a8ab4cfbacd89ece45
+run_name: marvelous-zebra-434
+run_uuid: 7995bfd37bce49a8ab4cfbacd89ece45
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748006560214
+status: 3
+tags: []
+user_id: crab

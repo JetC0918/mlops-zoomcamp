@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/510162088933463138/3cc54969705e430db81a4d8ce8d187db/artifacts
+deleted_time: 1748003513370
+end_time: null
+entry_point_name: ''
+experiment_id: '510162088933463138'
+lifecycle_stage: deleted
+run_id: 3cc54969705e430db81a4d8ce8d187db
+run_name: magnificent-cub-988
+run_uuid: 3cc54969705e430db81a4d8ce8d187db
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748003263704
+status: 1
+tags: []
+user_id: crab

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/253543047550040700/cb7d05d5db3d4de79027a438f1d5d9de/artifacts
+end_time: 1747831160200
+entry_point_name: ''
+experiment_id: '253543047550040700'
+lifecycle_stage: active
+run_id: cb7d05d5db3d4de79027a438f1d5d9de
+run_name: peaceful-bee-52
+run_uuid: cb7d05d5db3d4de79027a438f1d5d9de
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747831138456
+status: 3
+tags: []
+user_id: crab

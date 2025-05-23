@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/253543047550040700/1f343480630543319153e8470b55da70/artifacts
+end_time: 1747830711926
+entry_point_name: ''
+experiment_id: '253543047550040700'
+lifecycle_stage: active
+run_id: 1f343480630543319153e8470b55da70
+run_name: monumental-mole-894
+run_uuid: 1f343480630543319153e8470b55da70
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747830381621
+status: 3
+tags: []
+user_id: crab

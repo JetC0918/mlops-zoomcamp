@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/253543047550040700/d92a6d31b1854db6a3c23b3d5c96b22f/artifacts
+end_time: 1747831481564
+entry_point_name: ''
+experiment_id: '253543047550040700'
+lifecycle_stage: active
+run_id: d92a6d31b1854db6a3c23b3d5c96b22f
+run_name: beautiful-hawk-187
+run_uuid: d92a6d31b1854db6a3c23b3d5c96b22f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747831439887
+status: 3
+tags: []
+user_id: crab

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/253543047550040700/576a85f6c554403d97ed49c43b0c6344/artifacts
+end_time: 1747830990780
+entry_point_name: ''
+experiment_id: '253543047550040700'
+lifecycle_stage: active
+run_id: 576a85f6c554403d97ed49c43b0c6344
+run_name: gentle-mule-371
+run_uuid: 576a85f6c554403d97ed49c43b0c6344
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747830949080
+status: 3
+tags: []
+user_id: crab

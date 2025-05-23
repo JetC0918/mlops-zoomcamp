@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/510162088933463138/85f8c269d62f4ca79c75131b222ca347/artifacts
+deleted_time: 1748004580287
+end_time: null
+entry_point_name: ''
+experiment_id: '510162088933463138'
+lifecycle_stage: deleted
+run_id: 85f8c269d62f4ca79c75131b222ca347
+run_name: marvelous-pug-767
+run_uuid: 85f8c269d62f4ca79c75131b222ca347
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748004130436
+status: 1
+tags: []
+user_id: crab

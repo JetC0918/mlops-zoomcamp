@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/253543047550040700/aa65b8ee90e44b7c8d111ce9a5a5ca70/artifacts
+end_time: 1747832143454
+entry_point_name: ''
+experiment_id: '253543047550040700'
+lifecycle_stage: active
+run_id: aa65b8ee90e44b7c8d111ce9a5a5ca70
+run_name: worried-bass-31
+run_uuid: aa65b8ee90e44b7c8d111ce9a5a5ca70
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747832130015
+status: 3
+tags: []
+user_id: crab
